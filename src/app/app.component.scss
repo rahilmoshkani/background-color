@@ -1,0 +1,21 @@
+
+
+  .back{background-color: tan;
+  color: black;}
+
+/*on screen that are 992px wide or less,the background color is blue*/
+@media screen and (max-width:992px) {
+ .back{background-color:blue;
+    color: white;
+  }
+}
+
+/*on screen that are 600px wide or less,the background color is olive*/
+@media screen and (max-width:700px) {
+  .back{
+    background-color: olive;
+    color: white;
+  }
+
+}
+
